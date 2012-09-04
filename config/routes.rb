@@ -1,4 +1,6 @@
 FoodCourt::Application.routes.draw do
+  resources :orders
+
   devise_for :users
 
   get "home/index"
